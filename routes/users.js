@@ -4,8 +4,8 @@ const User = require('../models/user');
 const router = express.Router();
 
 const USERS = [
-    new User('Alejandra Suarez', 'Calle Principal 123', 'Ale@example.com'),
-    new User('Alemania Correa', 'Avenida Central 456', 'Alemania@example.com')
+    new User('Carlos Dimitrakis', 'Mapasuingue oeste', 'carlos.dimitrakis@example.com'),
+    new User('Guadalupe cedeño', 'Mapasuingue oeste', 'Guadalupe@example.com')
 ];
 
 router.get('/', (req, res, next) => {
